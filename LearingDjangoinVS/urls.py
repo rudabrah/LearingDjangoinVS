@@ -24,3 +24,13 @@ urlpatterns = [
     # Uncomment the next line to enable the admin:
     #path('admin/', admin.site.urls)
 ]
+
+
+from django.conf.urls import include, url
+import DjangoApp.views
+
+#Django process URL patterns in the order they appear in the array
+urlpatterns = [
+    url(r'^$', DjangoApp.views.index, name='index'),
+    url(r'^home$', DjangoApp.views.index, name='home'),
+]
