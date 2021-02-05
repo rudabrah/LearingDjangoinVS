@@ -33,4 +33,5 @@ import DjangoApp.views
 urlpatterns = [
     url(r'^$', DjangoApp.views.index, name='index'),
     url(r'^home$', DjangoApp.views.index, name='home'),
+    url(r'^about$', DjangoApp.views.about, name='about'),
 ]
