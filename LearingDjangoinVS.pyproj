@@ -4,6 +4,7 @@
     <Name>LearingDjangoinVS</Name>
     <RootNamespace>LearingDjangoinVS</RootNamespace>
     <InterpreterId>MSBuild|env1|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>

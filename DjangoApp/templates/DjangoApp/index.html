@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
 <html>
+{% extends "DjangoApp/layout.html" %}
     <head>
-        {% extends "DjangoApp/layout.html" %}
         <title>{{ title }}</title>
         {% load staticfiles %} 
         <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}"/> 
